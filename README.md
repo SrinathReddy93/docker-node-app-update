@@ -29,3 +29,10 @@ This is will tell docker to don't overrided this node_modules folder
 To check volues in dockers
 
 docker volume ls
+
+
+# hit
+
+If you want to connect local db from docker,
+use host.docker.internal insted of localhost.
+Ex:- 'mongodb://host.docker.internal:27017/swfavorites'
